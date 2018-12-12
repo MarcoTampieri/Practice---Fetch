@@ -1,0 +1,14 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "Get Post Update Delete";
+}
+
+.Get { grid-area: Get; }
+
+.Post { grid-area: Post; }
+
+.Update { grid-area: Update; }
+
+.Delete { grid-area: Delete; }

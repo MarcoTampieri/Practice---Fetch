@@ -13,26 +13,33 @@
     <main class="grid-container">
 
         <div class="Get">
-            <input class="inputID" type="text" placeholder="User ID">
-            <button class="getUserById">User by ID</button> <br><br>
+            <h2>GET</h2><br>
+            <input class="inputID" type="text" placeholder="User ID"><br>
+            <button class="getUserById">User by ID</button> <br>
             <ul class="singleUser"></ul>
             <button class="getUsers">Get all users</button>
             <ul class="usersList"></ul>
         </div>
 
         <div class="Post">
-            <input type="text" placeholder="Student Name">
-            <input type="text" placeholder="Past Watch">
-            <input type="text" placeholder="Next Watch">
-            <button class="postNew">Post new user</button>
+            <h2>POST</h2><br>
+            <input type="text" placeholder="New user name" class="funny"><br>
+            <button class="postUser">Post new user</button>
         </div>
 
         <div class="Update">
-
+            <h2>UPDATE</h2><br>
+            <input class="userID" type="text" placeholder="User ID">
+            <input class="updateName" type="text" placeholder="Update user name">
+            <input class="updateSubject" type="text" placeholder="Update watch subject">
+            <input class="updateDate" type="text" placeholder="Update watch date"><br>
+            <button class="updateUser">Update user</button>
         </div>
 
         <div class="Delete">
-
+            <h2>DELETE</h2><br>
+            <input type="text" placeholder="User ID" class="notFunny"><br>
+            <button class="deleteUser">Delete user</button>
         </div>
 
     </main>

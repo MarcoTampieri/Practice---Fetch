@@ -1,14 +1,74 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "Get Post Update Delete";
+body {
+    background: rgb(150, 163, 255);
+    background: linear-gradient(315deg, rgba(150, 163, 255, 1) 0%, rgba(1, 7, 69, 1) 100%);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.Get { grid-area: Get; }
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "Get Post Update Delete";
+}
 
-.Post { grid-area: Post; }
+.Get {
+    grid-area: Get;
+}
 
-.Update { grid-area: Update; }
+.Post {
+    grid-area: Post;
+}
 
-.Delete { grid-area: Delete; }
+.Update {
+    grid-area: Update;
+}
+
+.Delete {
+    grid-area: Delete;
+}
+
+h2 {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    color: #f53900;
+    border-bottom: #f53900 3px solid;
+}
+
+input {
+    margin: auto;
+    display: block;
+    margin-bottom: 3px;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #fffafad7;
+
+}
+
+button {
+    margin: auto;
+    margin-top: 5px;
+    display: block;
+    background-color: #ff6600;
+    border: 1px solid;
+    border-radius: 5px;
+    color: snow;
+    font-weight: bold;
+    padding: 3.5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    background: rgb(235, 255, 248);
+    background: linear-gradient(120deg, #ebfff8a5 0%, #b0b0b0d6 100%);
+    border: 1px solid black;
+    padding-left: 6px;
+    font-weight: 400 !important;
+
+}
